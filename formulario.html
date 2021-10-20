@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../../bootstrap//css//bootstrap.min.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Formulários Bootstrap</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Cadastre-se</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" class="form-control" placeholder="Ex: Gabriel" autocomplete="off"
+                            onfocus="this.value='';">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" class="form-control" placeholder="Ex: Gabriel" autocomplete="off"
+                            onfocus="this.value='';">
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" class="form-control" placeholder="Ex: Gabriel"
+                            autocomplete="off" onfocus="this.value='';">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Aceito os termos do serviço
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="opcoes"> Javascript
+                        </label>
+                        <label>
+                            <input type="radio" name="opcoes"> PHP
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-light">Cadastrar</button>
+
+
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <h3>Logar</h3>
+                <div class="form-group">
+                    <input autocomplete="off" id="email" type="email" class="form-control"
+                        placeholder="digite seu email" autocomplete="off" onfocus="this.value='';">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="digite sua senha" id="senha" onfocus="this.value='';"
+                        class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Logar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
